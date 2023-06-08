@@ -93,7 +93,7 @@ class OAK_Camera:
         stereo_threshold_filter_min_range: int = 200,
         stereo_threshold_filter_max_range: int = 20000,
         stereo_decimation_filter_factor: int = 1,
-        enable_imu: bool = True,
+        enable_imu: bool = False,
         imu_batch_report_threshold: int = 20,
         imu_max_batch_reports: int = 20,
         imu_accelerometer_refresh_rate: int = 400,
